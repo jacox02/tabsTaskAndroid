@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tabs Task</string>
+    <string name="tab_text_registro">Registro</string>
+    <string name="tab_text_likedSongs">Canciones favoritas</string>
+    <string name="tab_text_Contacs">Contactos</string>
+    <string name="tab_text_Inicio">Inicio</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

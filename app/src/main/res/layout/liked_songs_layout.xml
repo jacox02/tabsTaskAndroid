@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TableRow
+                android:gravity="center_horizontal"
+                android:paddingBottom="20px">
+
+                <TextView
+                    android:text="Canciones favoritas"
+                    android:textSize="16sp"
+                    android:textStyle="bold"></TextView>
+            </TableRow>
+
+            <TableRow android:paddingTop="20px">
+
+                <ImageView
+                    android:layout_width="330px"
+                    android:layout_height="300px"
+                    android:src="@drawable/indaghetto"></ImageView>
+
+                <TableRow>
+
+                    <TextView android:text="In da ghetto\nSkrilex x J-Balvin\n2021"></TextView>
+                </TableRow>
+            </TableRow>
+            <TableRow android:paddingTop="20px">
+
+                <ImageView
+                    android:layout_width="330px"
+                    android:layout_height="300px"
+                    android:src="@drawable/popsmokecover"></ImageView>
+                <TableRow>
+                    <TextView android:text="WHAT YOU KNOW BOUT LOVE\nPop Smoke\n2020"></TextView>
+                </TableRow>
+            </TableRow>
+            <TableRow android:paddingTop="20px">
+                <ImageView
+                    android:layout_width="330px"
+                    android:layout_height="300px"
+                    android:src="@drawable/popsmokecover"></ImageView>
+                <TableRow>
+                    <TextView android:text="The Woo\n50 Cent, Roddy Ricch, Pop Smoke\n2020"></TextView>
+                </TableRow>
+            </TableRow>
+            <TableRow android:paddingTop="20px">
+                <ImageView
+                    android:layout_width="330px"
+                    android:layout_height="300px"
+                    android:src="@drawable/demuseo"></ImageView>
+                <TableRow>
+                    <TextView android:text="De museo\nBad Bunny\n2021"></TextView>
+                </TableRow>
+            </TableRow>
+            <TableRow android:paddingTop="20px">
+                <ImageView
+                    android:layout_width="330px"
+                    android:layout_height="300px"
+                    android:src="@drawable/popsmokecover"></ImageView>
+                <TableRow>
+                    <TextView android:text="In da ghetto\nSkrilex x J-Balvin\n2021"></TextView>
+                </TableRow>
+            </TableRow>
+            <TableRow android:paddingTop="20px">
+                <ImageView
+                    android:layout_width="330px"
+                    android:layout_height="300px"
+                    android:src="@drawable/popsmokecover"></ImageView>
+                <TableRow>
+
+                    <TextView android:text="Aim For The Moon\nPop Smoke, Quavo\n2020"></TextView>
+                </TableRow>
+            </TableRow>
+        </TableLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
